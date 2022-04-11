@@ -11,6 +11,7 @@ RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v4.3.7/har
 
 # Copy over helpers scripts
 COPY create_bls_key.sh /harmony_node/
+RUN chmod +x create_bls_key.sh
 
 # these are the directories we will mount volumes to
 RUN mkdir -p .hmy/blskeys
