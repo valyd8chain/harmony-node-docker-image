@@ -14,4 +14,4 @@ RUN mkdir -p .hmy/blskeys
 RUN mkdir harmony_dbs
 RUN mkdir config
 
-CMD [ "./harmony", "-C", "./config/harmony.conf"]
+CMD [ "./harmony", "-c", "./config/harmony.conf"]
