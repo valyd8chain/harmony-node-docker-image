@@ -7,7 +7,7 @@ WORKDIR /harmony_node
 # Always use latest CLI
 RUN curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 # Download node binary by version
-RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v4.3.8/harmony && chmod +x harmony
+RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v4.3.9/harmony && chmod +x harmony
 
 # Copy over helpers scripts
 COPY create_bls_key.sh /harmony_node/
