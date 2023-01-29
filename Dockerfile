@@ -1,7 +1,7 @@
 FROM valyd8chain/hmy-cli:latest AS build
 
 # Download node binary by version
-RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v4.3.13/harmony && chmod +x harmony
+RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v2023.1.0/harmony && chmod +x harmony
 
 # Copy over helpers scripts
 COPY check_bingos.sh /harmony_node/
