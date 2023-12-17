@@ -1,4 +1,4 @@
-FROM valyd8chain/hmy-cli:0.3.0 AS build
+FROM valyd8chain/hmy-cli:0.5.1 AS build
 
 # Download node binary by version
 RUN curl -LO https://github.com/harmony-one/harmony/releases/download/v2023.4.0/harmony && chmod +x harmony
